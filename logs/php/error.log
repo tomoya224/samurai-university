@@ -285,3 +285,13 @@ Stack trace:
 #5 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-load.php(50): require_once('/Users/nanzhiye...')
 #6 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-admin/admin.php(34): require_once('/Users/nanzhiye...')
 # in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/functions.php on line 21
+[24-Feb-2022 11:30:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_thumbnail_size() in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/functions.php:21
+Stack trace:
+#0 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(307): theme_setup('')
+#1 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-settings.php(565): do_action('after_setup_the...')
+#4 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-config.php(77): require_once('/Users/nanzhiye...')
+#5 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-load.php(50): require_once('/Users/nanzhiye...')
+#6 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-admin/admin.php(34): require_once('/Users/nanzhiye...')
+# in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/functions.php on line 21
