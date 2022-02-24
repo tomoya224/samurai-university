@@ -15,3 +15,9 @@ function remove_default_jquery()
 
 
 add_action('wp_enqueue_scripts', 'remove_default_jquery');
+
+function theme_setup() {
+    add_theme_support('post-thumbnails');
+    add_theme_thumbnail_size(1200, 628, true);
+}
+add_action('after_setup_theme', 'theme_setup');
