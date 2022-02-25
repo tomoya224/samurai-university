@@ -295,3 +295,7 @@ Stack trace:
 #5 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-load.php(50): require_once('/Users/nanzhiye...')
 #6 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-admin/admin.php(34): require_once('/Users/nanzhiye...')
 # in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/functions.php on line 21
+[24-Feb-2022 23:20:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/front-page.php on line 450
+[24-Feb-2022 23:20:49 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/front-page.php on line 450
+[24-Feb-2022 23:21:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/front-page.php on line 450
+[24-Feb-2022 23:21:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/front-page.php on line 450
