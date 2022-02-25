@@ -134,7 +134,7 @@
                         <?php if ( $event_query->have_posts() ): ?>
                          <?php while ( $event_query->have_posts()) : $event_query->the_post() ; ?>
 
-                        
+                        <!-- Evnet Posts Small loop start -->
                         <div class="news_post_small">
                             <div class="row news_post_row">
                                 <div class="col-lg-3 col-md-4 col-sx-12">
@@ -168,30 +168,11 @@
                                </div>     
                         </div>
                         <!-- Event Posts Small loop end-->
+                        <?php endwhile; ?>
+                        <?php wp_reset_postdata(); ?>
+                        <?php endif; ?>
 
-                        <div class="news_post_small">
-                            <div class="row news_post_row">
-                                <div class="col-lg-3 col-md-4 col-sx-12">
-                                    <div class="calendar_border">
-                                        <div class="calendar_border_1">
-                                            <div class="calendar_month">OCT</div>
-                                            <div class="calendar_day">
-                                                <span>15</span><span>日</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-md-8 col-sx-12">
-                                    <div class="news_post_small_title">
-                                        <a href="">Raspberry Piハンズオンセミナー</a>
-                                    </div>
-                                    <div class="news_post_content">
-                                        11月15日　新宿〇〇ビル8Fにて、Paspberry
-                                        Piｗ使った、センサーを利用した自動走行ハンズオンセミナーを開催し...
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
 
                     </div>
                 </div>
@@ -447,4 +428,5 @@
                 </div>
             </div>
         </div>
-        <?php get_footer(); ?>
+
+       <?php get_footer(); ?> 
