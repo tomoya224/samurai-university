@@ -323,108 +323,46 @@
                     </div>
                 </div>
                 <div class="row courses_row">
+
+
+                <?php
+                $args = array(
+                    'post_type'    => 'post',
+                    'category_name' => 'campuslife',
+                    'posts_per_page' => 6
+                );
+                $campus_query = new WP_Query($args);
+                ?>
+
+                <?php if ($campus_query->have_posts()) : ?>
+                    <?php while ($campus_query->have_posts()) : $campus_query->the_post(); ?>
                     <!-- Course -->
                     <div class="col-lg-4 course_col">
                         <div class="course">
                             <div class="course_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/pic4-1.jpg" alt="" />
+                                <?php if(has_post_thumbnail()) : ?>
+                                    <a href="<?php the_permalink(); ?>">
+                                    <?php the_post_thumbnail(); ?></a>
+                                <?php endif; ?>
                             </div>
                             <div class="course_body">
                                 <h3 class="campas_title">
-                                    <a href="course.html">サマーセミナー</a>
+                                  <a href="<?php the_permalink(); ?>">
+                                    <?php the_title(); ?>
+                                  </a>
                                 </h3>
                             </div>
                             <div class="campas_footer">
                                 <div class="campas_footer_content d-flex flex-row align-items-center justify-content-start">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png" /><span>2019/4/23</span>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png" />
+                                    <span><?php echo get_the_date('Y-m-d'); ?></span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 course_col">
-                        <div class="course">
-                            <div class="course_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/pic4-4.png" alt="" />
-                            </div>
-                            <div class="course_body">
-                                <h3 class="campas_title">
-                                    <a href="course.html">フィールドワーク行ってきました</a>
-                                </h3>
-                            </div>
-                            <div class="campas_footer">
-                                <div class="campas_footer_content d-flex flex-row align-items-center justify-content-start">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png" /><span>2019/4/23</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 course_col">
-                        <div class="course">
-                            <div class="course_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/pic4-5.jpg" alt="" />
-                            </div>
-                            <div class="course_body">
-                                <h3 class="campas_title"><a href="course.html">卒業式</a></h3>
-                            </div>
-                            <div class="campas_footer">
-                                <div class="campas_footer_content d-flex flex-row align-items-center justify-content-start">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png" /><span>2019/4/23</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row courses_row">
-                    <!-- Course -->
-                    <div class="col-lg-4 course_col">
-                        <div class="course">
-                            <div class="course_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/pic4-2.jpg" alt="" />
-                            </div>
-                            <div class="course_body">
-                                <h3 class="campas_title">
-                                    <a href="course.html">サマーセミナー</a>
-                                </h3>
-                            </div>
-                            <div class="campas_footer">
-                                <div class="campas_footer_content d-flex flex-row align-items-center justify-content-start">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png" /><span>2019/4/23</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 course_col">
-                        <div class="course">
-                            <div class="course_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/pic4-4.png" alt="" />
-                            </div>
-                            <div class="course_body">
-                                <h3 class="campas_title">
-                                    <a href="course.html">フィールドワーク行ってきました</a>
-                                </h3>
-                            </div>
-                            <div class="campas_footer">
-                                <div class="campas_footer_content d-flex flex-row align-items-center justify-content-start">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png" /><span>2019/4/23</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 course_col">
-                        <div class="course">
-                            <div class="course_image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/images/pic4-5.jpg" alt="" />
-                            </div>
-                            <div class="course_body">
-                                <h3 class="campas_title"><a href="course.html">卒業式</a></h3>
-                            </div>
-                            <div class="campas_footer">
-                                <div class="campas_footer_content d-flex flex-row align-items-center justify-content-start">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png" /><span>2019/4/23</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endwhile; ?>
+                      <?php wp_reset_postdata(); ?>
+                  <?php endif; ?>
                 </div>
             </div>
         </div>
