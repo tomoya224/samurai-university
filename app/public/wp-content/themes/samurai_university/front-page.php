@@ -166,7 +166,7 @@
                                  </div>
                                 </div>
                                </div>     
-                        </div>
+                        
                         <!-- Event Posts Small loop end-->
                         <?php endwhile; ?>
                         <?php wp_reset_postdata(); ?>
