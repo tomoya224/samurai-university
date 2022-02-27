@@ -75,44 +75,7 @@
 
         <!-- Course Sidebar -->
         <div class="col-lg-4" style="background-color: #2b7b8e33">
-          <!-- sidebar-main に切り出す -->
-          <div class="sidebar">
-            <div class="form-search">
-              <form action="#" id="courses_search_form" class="courses_search_form d-flex flex-row align-items-center justify-content-start">
-                <input type="search" class="courses_search_input" required="required" />
-                <button action="submit" class="courses_search_button">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                </button>
-              </form>
-            </div>
-            <div class="category">
-              <div class="section_title_container category_title">
-                <h2>CATEGORY</h2>
-                <div class="section_subtitle">カテゴリー</div>
-              </div>
-              <div class="sidebar_categories">
-                <ul>
-                  <li><a href="#">News ニュース</a></li>
-                  <li><a href="#">Events イベント</a></li>
-                  <li><a href="#">CampusLife 侍の学生</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="category">
-              <div class="section_title_container category_title">
-                <h2>Latest Post</h2>
-                <div class="section_subtitle">最新記事</div>
-              </div>
-              <div class="sidebar_categories">
-                <ul>
-                  <li><a href="#">AWS ハンズオンセミ…</a></li>
-                  <li><a href="#">AWS ハンズオンセミ…</a></li>
-                  <li><a href="#">AWS ハンズオンセミ…</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- sidebar-main ここまで -->
+          <?php get_sidebar('main'); ?>
         </div>
       </div>
     </div>
