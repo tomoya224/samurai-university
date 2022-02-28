@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+
+
     <!-- Home -->
 
     <div class="home">
@@ -79,6 +81,7 @@
         </div>
       </div>
     </div>
+ </div>
     <?php get_footer(); ?>
 
     
