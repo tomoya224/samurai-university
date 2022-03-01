@@ -383,3 +383,21 @@ Stack trace:
 [28-Feb-2022 22:26:08 UTC] SITE: Storing in option ast-block-templates-sites-1
 [28-Feb-2022 22:26:08 UTC] SITE: Completed request 1
 [28-Feb-2022 22:26:08 UTC] Sync process for Gutenberg Blocks is done.
+[01-Mar-2022 13:24:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_sirectory_uri() in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/functions.php:7
+Stack trace:
+#0 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(307): register_css('')
+#1 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/plugin in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/functions.php on line 7
+[01-Mar-2022 13:24:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_sirectory_uri() in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/functions.php:7
+Stack trace:
+#0 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(307): register_css('')
+#1 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/script-loader.php(2105): do_action('wp_enqueue_scri...')
+#4 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(307): wp_enqueue_scripts('')
+#5 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/plugin in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-content/themes/samurai_university/functions.php on line 7

@@ -75,6 +75,16 @@
   <script type="text/javascript">
     $(".carousel").carousel();
   </script>
+
+  <script type="text/javascript">
+    //WordPressにおけるjQueryの書き方
+    jQuery(function($){
+          $('.count_num').counterUp({
+          delay: 10,
+          time: 1000  
+          });
+    });
+  </script>
 </body>
 
 </html>

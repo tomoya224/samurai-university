@@ -273,7 +273,8 @@
                                     <div class="milestone_counter">
                                         <p>教授数</p>
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon4.png" alt="" />
-                                        <span class="milestone_number">335</span><span class="milestone_count">名</span>
+                                        <!-- classにcount_num、idにteacher_numを追加する -->
+                                        <span class="count_num milestone_number" id="teacher_num">335</span><span class="milestone_count">名</span>
                                     </div>
                                 </div>
 
@@ -282,7 +283,8 @@
                                     <div class="milestone_counter">
                                         <p>卒業生徒</p>
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon3.png" alt="" />
-                                        <span class="milestone_number">4526</span><span class="milestone_count">名</span>
+                                        <!-- classにcount_num、idにstudent_numを追加する -->
+                                        <span class="count_num milestone_number" id="student_num">4526</span><span class="milestone_count">名</span>
                                     </div>
                                 </div>
 
@@ -291,7 +293,8 @@
                                     <div class="milestone_counter">
                                         <p>学習コース</p>
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon2.png" alt="" />
-                                        <span class="milestone_number">12</span><span class="milestone_count">コース</span>
+                                        <!-- classにcount_num idにcourse_numを追加する -->
+                                        <span class="count_num milestone_number" id="course_num">12</span><span class="milestone_count">コース</span>
                                     </div>
                                 </div>
 
@@ -300,7 +303,8 @@
                                     <div class="milestone_counter">
                                         <p>受賞</p>
                                         <img src="<?php echo get_template_directory_uri(); ?>/images/icon1.png" alt="" />
-                                        <span class="milestone_number">35</span><span class="milestone_count">回</span>
+                                        <!-- classにcount_num、idにaward_numを追加する -->
+                                        <span class="count_num milestone_number" id="award_num">35</span><span class="milestone_count">回</span>
                                     </div>
                                 </div>
                             </div>
