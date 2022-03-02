@@ -50,9 +50,8 @@
               </div>
 
               <div class="col-lg-5 footer_col clearfix">
-                <a class="twitter-timeline" data-height="260"
-                  href="https://twitter.com/samuraijuku?ref_src=twsrc%5Etfw">Tweets by samuraijuku</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <a class="twitter-timeline" data-height="265" href="https://twitter.com/samuraijuku?ref_src=twsrc%5Etfw">Tweets by samuraijuku</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              
               </div>
             </div>
           </div>
@@ -85,6 +84,9 @@
           });
     });
   </script>
+   <script>
+     AOS.init();
+   </script>
 </body>
 
 </html>

@@ -97,7 +97,7 @@
                       <?php while ($news_query->have_posts()) : $news_query->the_post(); //$news_queryに投稿記事のデータが代入されている限りループを繰り返す ?>
 
                         <!-- News Posts Small -->
-                        <div class="news_post_small">
+                        <div class="news_post_small" data-aos="fade-up" data-aos-delay="200">
                             <div class="news_post_meta">
                                 <ul>
                                 <li>
@@ -135,7 +135,7 @@
                          <?php while ( $event_query->have_posts()) : $event_query->the_post() ; ?>
 
                         <!-- Evnet Posts Small loop start -->
-                        <div class="news_post_small">
+                        <div class="news_post_small" data-aos="fade-up" data-aos-delay="200">
                             <div class="row news_post_row">
                                 <div class="col-lg-3 col-md-4 col-sx-12">
                                     <div class="calendar_border">
@@ -193,7 +193,7 @@
                 </div>
                 <div class="row courses_row">
                     <!-- Course -->
-                    <div class="col-lg-4 course_col">
+                    <div class="col-lg-4 course_col" data-aos="fade-up" data-aos-delay="200">
                         <div class="course">
                             <div class="course_image">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/pic5-3.png" alt="" />
@@ -215,7 +215,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 course_col">
+                    <div class="col-lg-4 course_col" data-aos="fade-up" data-aos-delay="200">
                         <div class="course">
                             <div class="course_image">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/pic5-2.jpg" alt="" />
@@ -237,7 +237,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 course_col">
+                    <div class="col-lg-4 course_col" data-aos="fade-up" data-aos-delay="200">
                         <div class="course">
                             <div class="course_image">
                                 <img src="<?php echo get_template_directory_uri(); ?>/images/pic5-4.png" alt="" />
@@ -341,7 +341,7 @@
                 <?php if ($campus_query->have_posts()) : ?>
                     <?php while ($campus_query->have_posts()) : $campus_query->the_post(); ?>
                     <!-- Course -->
-                    <div class="col-lg-4 course_col">
+                    <div class="col-lg-4 course_col" data-aos="fade-up" data-aos-delay="200">
                         <div class="course">
                             <div class="course_image">
                                 <?php if(has_post_thumbnail()) : ?>

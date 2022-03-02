@@ -1,15 +1,11 @@
 <div class="sidebar">
                <div class="form-search">
                  <form
-                   action="#"
-                   id="courses_search_form"
-                   class="courses_search_form d-flex flex-row align-items-center justify-content-start"
+                   action="<?php echo home_url(); ?>" method = "get" id="courses_search_form" class="ccourses_search_form d-flex flex-row align-items-center justify-content-start">
                  >
                    <input
-                     type="search"
-                     class="courses_search_input"
-                     required="required"
-                   />
+                     type="search" name="s" value="<?php the_search_query(); ?>" class="courses_search_input" required="required" placeholder="検索文字を入力">
+                   >
                    <button action="submit" class="courses_search_button">
                      <i class="fa fa-search" aria-hidden="true"></i>
                    </button>

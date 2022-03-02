@@ -5,6 +5,7 @@ function register_css()
     if(!is_admin()) {
   wp_enqueue_style('bootstrap', get_template_directory_uri() . '/styles/bootstrap4/bootstrap.min.css');
   wp_enqueue_style('font-awesome', get_template_directory_uri() . '/plugins/font-awesome-4.7.0/css/font-awesome.min.css');
+  wp_enqueue_style('AOS' , get_template_directory_uri() . '/style/aos.css');
   wp_enqueue_style('main_style' , get_template_directory_uri() . '/styles/main_styles.css');
 }
 }
@@ -23,6 +24,8 @@ function remove_default_jquery()
         //追加する行
         wp_enqueue_script('waypoints' , get_template_directory_uri() . '/js/waypoints.min.js' , array(), 4.0, true);
         wp_enqueue_script('counterup' , get_template_directory_uri() . '/js/jquery.counterup.min.js' , array(), 1.0, true);
+
+        wp_enqueue_script('AOS' , get_template_directory_uri() . '/js/aos.js' , array(), 1.0, true);
     }
 }
 
