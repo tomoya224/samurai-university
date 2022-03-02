@@ -35,4 +35,10 @@ add_action('wp_enqueue_scripts', 'register_css');
 add_action('wp_enqueue_scripts' , 'remove_default_jquery');
 add_theme_support('post-thumbnails');
 
+function register_my_menus(){
+    register_nav_menu('footer-menu' , 'Footer_menu');
+}
+// 上記メニューを登録　register_my_menusは自由に作成した関数
+add_action('after_setup_theme' , 'register_my_menus');
+
 

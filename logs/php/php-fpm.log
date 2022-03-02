@@ -70,3 +70,8 @@
 [02-Mar-2022 14:13:06] NOTICE: exiting, bye-bye!
 [02-Mar-2022 16:14:48] NOTICE: fpm is running, pid 967
 [02-Mar-2022 16:14:48] NOTICE: ready to handle connections
+[02-Mar-2022 18:43:40] NOTICE: Terminating ...
+[02-Mar-2022 18:43:40] NOTICE: Terminating ...
+[02-Mar-2022 18:43:40] NOTICE: exiting, bye-bye!
+[02-Mar-2022 18:48:59] NOTICE: fpm is running, pid 800
+[02-Mar-2022 18:48:59] NOTICE: ready to handle connections

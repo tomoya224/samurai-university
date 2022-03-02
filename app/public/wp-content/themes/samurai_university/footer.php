@@ -38,13 +38,15 @@
                 <!-- Footer links -->
                 <div class="footer_section footer_links">
                   <div class="footer_links_container">
-                    <ul>
-                      <li><a href="category/news/">ニュース</a></li>
-                      <li><a href="category/event/">イベント</a></li>
-                      <li><a href="course/">コース</a></li>
-                      <li><a href="category/campuslife/">侍の学生</a></li>
-                      <li><a href="about-us/">侍Univaについて</a></li>
-                    </ul>
+                    <!-- WordPressの関数に置き換える -->
+                    <?php 
+                    $args = array(
+                      'menu' => 'Footer_menu',
+                      'menu_class' => '',
+                      'container' => 'false',
+                    );
+                    wp_nav_menu($args);
+                    ?>
                   </div>
                 </div>
               </div>

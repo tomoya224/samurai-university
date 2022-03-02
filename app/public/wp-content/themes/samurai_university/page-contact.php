@@ -27,44 +27,13 @@
 									<div class="">
 										<div class="container contact_form">
 											
-												<div class="input_title">
-													<h4>お名前</h4>
-												</div>
-												<div class="form-row">
-													<div class="col-md-3 mb-3">
-													[mwform_text name="first_name" id="first_name" class="form-control" size="125" maxlength="125" placeholder="侍"]
-													</div>
-													<div class="col-md-3 mb-3">
-														[mwform_text name="family_name" id="family_name" class="form-control" size="125" maxlength="125" placeholder="太郎"]
-													</div>
-												</div>
-												<div class="input_title">
-													<h4>E-mail</h4>
-												</div>
-												<div class="form-row">
-													<div class="col-md-6">
-													[mwform_email name="e-mail" id="e-mail" class="form-control" size="125" maxlength="125" placeholder="example@sejuku.net"]
-													</div>
-												</div>
-												<div class="input_title">
-													<h4>題名</h4>
-												</div>
-												<div class="form-row">
-													<div class="col-md-12">
-													[mwform_text name="title" id="title" class="form-control" size="125" maxlength="125" placeholder="願書受付について"]
-													</div>
-												</div>
-												<div class="input_title">
-													<h4>メッセージ本文</h4>
-												</div>
-												<div class="form-row">
-													<div class="col-md-12">
-													[mwform_textarea name="message" id="message" class="form-control" maxlength="125" cols="50" rows="5" placeholder="願書受付について聞きたいです。"]
-													</div>
-												</div>
-												<div class="text-right">
-												[mwform_submit name="submit" class="btn submit_form" value="送信"]
-												</div>
+									<!-- WordPressループ -->
+									<?php if (have_posts()) : ?>
+									 <?php while (have_posts()) : the_post(); ?>
+									   <!-- 以下の関数で管理画面から入力した内容を表示できる -->
+                                       <?php the_content(); ?>
+									 <?php endwhile; ?>
+									 <?php endif; ?>
 											
 										</div>
 									</div>
