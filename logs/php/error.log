@@ -432,3 +432,11 @@ Stack trace:
 [02-Mar-2022 10:04:48 UTC] SITE: Storing in option ast-block-templates-sites-1
 [02-Mar-2022 10:04:48 UTC] SITE: Completed request 1
 [02-Mar-2022 10:04:48 UTC] Sync process for Gutenberg Blocks is done.
+[03-Mar-2022 12:37:25 UTC] PHP Warning:  予期しないエラーが発生しました。WordPress.org かこのサーバーの設定に何か問題があるかもしれません。問題が続くようであれば、<a href="https://ja.wordpress.org/support/forums/">サポートフォーラム</a>を参照してみてください。 (WordPress は WordPress.org との安全な接続を確立できませんでした。サーバー管理者にご連絡ください) in /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/update.php on line 413
+[03-Mar-2022 12:37:25 UTC] PHP Stack trace:
+[03-Mar-2022 12:37:25 UTC] PHP   1. {main}() /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-cron.php:0
+[03-Mar-2022 12:37:25 UTC] PHP   2. do_action_ref_array() /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-cron.php:138
+[03-Mar-2022 12:37:25 UTC] PHP   3. WP_Hook->do_action() /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/plugin.php:522
+[03-Mar-2022 12:37:25 UTC] PHP   4. WP_Hook->apply_filters() /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php:331
+[03-Mar-2022 12:37:25 UTC] PHP   5. wp_update_plugins() /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/class-wp-hook.php:307
+[03-Mar-2022 12:37:25 UTC] PHP   6. trigger_error() /Users/nanzhiye/Local Sites/samurai-university/app/public/wp-includes/update.php:413

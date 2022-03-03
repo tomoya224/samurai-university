@@ -75,3 +75,67 @@
 [02-Mar-2022 18:43:40] NOTICE: exiting, bye-bye!
 [02-Mar-2022 18:48:59] NOTICE: fpm is running, pid 800
 [02-Mar-2022 18:48:59] NOTICE: ready to handle connections
+[03-Mar-2022 00:16:35] NOTICE: Terminating ...
+[03-Mar-2022 00:16:35] NOTICE: Terminating ...
+[03-Mar-2022 00:16:35] NOTICE: exiting, bye-bye!
+[03-Mar-2022 07:27:35] NOTICE: fpm is running, pid 801
+[03-Mar-2022 07:27:35] NOTICE: ready to handle connections
+[03-Mar-2022 08:23:05] NOTICE: Terminating ...
+[03-Mar-2022 08:23:05] NOTICE: Terminating ...
+[03-Mar-2022 08:23:05] NOTICE: exiting, bye-bye!
+[03-Mar-2022 21:36:53] NOTICE: fpm is running, pid 1001
+[03-Mar-2022 21:36:53] NOTICE: ready to handle connections
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: --help: command not found"
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: mysqldump: command not found"
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql6/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql5/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:21] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: --help: command not found"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: mysqldump: command not found"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: /usr/local/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: /usr/local/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: /usr/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: /opt/local/lib/mysql6/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: /opt/local/lib/mysql5/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:43] WARNING: [pool www] child 1005 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: --help: command not found"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: mysqldump: command not found"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql6/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql5/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:44] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: --help: command not found"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: mysqldump: command not found"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql6/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql5/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: --help: command not found"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: mysqldump: command not found"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql6/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql5/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:53] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: --help: command not found"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: mysqldump: command not found"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/local/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/mysql/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql6/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: /opt/local/lib/mysql5/bin/mysqldump: No such file or directory"
+[03-Mar-2022 21:39:58] WARNING: [pool www] child 1006 said into stderr: "sh: /usr/bin/mysqldump: No such file or directory"
